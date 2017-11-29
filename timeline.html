@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="" lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CuriousBrands</title>
+      <link rel="stylesheet" href="./lib/css/awesome/css/font-awesome.css">
+      <link rel="stylesheet" href="./lib/css/css.css">
+      <link rel="stylesheet" href="./lib/css/reset.css">
+      <link rel="stylesheet" href="./lib/css/animate.css">
+      <link rel="stylesheet" href="./lib/css/jquery.css">
+      <link rel="stylesheet" href="./lib/css/default.css">
+      <link rel="stylesheet" href="./lib/css/demo.css">
+      <link rel="stylesheet" href="./lib/css/frst-timeline-style-4.css">
+      <script src="./lib/js/modernizr.js"></script>
+   </head>
+   <body style="background: #F6F4E7;">
+      <div id="page">
+         <header class="site-header">
+            <div class="header-top">
+               <div class="container">
+                  <div class="frst-logo"> <strong>CuriousBrands</strong> the timeline </div>
+
+                  <div class="header-cutomizations">
+                     <div class="container">
+                        <div class="custom-options">
+                           <div class="animation-selector">
+                              <select class="select-animation" id="select-animation">
+                                 <option value="">No Animation</option>
+                                 <optgroup label="Hinge">
+                                    <option value="hingeTop">hingeTop</option>
+                                    <option value="hingeBottom">hingeBottom</option>
+                                    <option value="hingeLeft">hingeLeft</option>
+                                    <option value="hingeRight">hingeRight</option>
+                                 </optgroup>
+                                 <optgroup label="Attention Seekers">
+                                    <option value="bounce">bounce</option>
+                                    <option value="flash">flash</option>
+                                    <option value="pulse">pulse</option>
+                                    <option value="rubberBand">rubberBand</option>
+                                    <option value="shake">shake</option>
+                                    <option value="swing">swing</option>
+                                    <option value="tada">tada</option>
+                                    <option value="wobble">wobble</option>
+                                    <option value="jello">jello</option>
+                                 </optgroup>
+                                 <optgroup label="Bouncing effects">
+                                    <option value="bounceIn">bounceIn</option>
+                                    <option value="bounceInDown">bounceInDown</option>
+                                    <option value="bounceInLeft">bounceInLeft</option>
+                                    <option value="bounceInRight">bounceInRight</option>
+                                    <option value="bounceInUp">bounceInUp</option>
+                                 </optgroup>
+                                 <optgroup label="Flippers effects">
+                                    <option value="flip">flip</option>
+                                    <option value="flipInX">flipInX</option>
+                                    <option value="flipInY">flipInY</option>
+                                 </optgroup>
+                                 <optgroup label="Fading effects">
+                                    <option value="fadeIn">fadeIn</option>
+                                    <option value="fadeInDown">fadeInDown</option>
+                                    <option value="fadeInDownBig">fadeInDownBig</option>
+                                    <option value="fadeInLeft">fadeInLeft</option>
+                                    <option value="fadeInLeftBig">fadeInLeftBig</option>
+                                    <option value="fadeInRight">fadeInRight</option>
+                                    <option value="fadeInRightBig">fadeInRightBig</option>
+                                    <option value="fadeInUp">fadeInUp</option>
+                                    <option value="fadeInUpBig">fadeInUpBig</option>
+                                 </optgroup>
+                                 <optgroup label="Lightspeed">
+                                    <option value="lightSpeedIn">lightSpeedIn</option>
+                                 </optgroup>
+                                 <optgroup label="Rotating effects">
+                                    <option value="rotateIn">rotateIn</option>
+                                    <option value="rotateInDownLeft" selected="selected">rotateInDownLeft</option>
+                                    <option value="rotateInDownRight">rotateInDownRight</option>
+                                    <option value="rotateInUpLeft">rotateInUpLeft</option>
+                                    <option value="rotateInUpRight">rotateInUpRight</option>
+                                 </optgroup>
+                                 <optgroup label="Sliding effects">
+                                    <option value="slideInUp">slideInUp</option>
+                                    <option value="slideInDown">slideInDown</option>
+                                    <option value="slideInLeft">slideInLeft</option>
+                                    <option value="slideInRight">slideInRight</option>
+                                 </optgroup>
+                                 <optgroup label="Zoom effects">
+                                    <option value="zoomIn">zoomIn</option>
+                                    <option value="zoomInDown">zoomInDown</option>
+                                    <option value="zoomInLeft">zoomInLeft</option>
+                                    <option value="zoomInRight">zoomInRight</option>
+                                    <option value="zoomInUp">zoomInUp</option>
+                                 </optgroup>
+                              </select>
+                           </div>
+
+                           <ul class="button-group style-class-switch">
+                              <li class="active"><a href="#" data-styleclass="alternate">Alternate</a></li>
+                              <li><a href="#" data-styleclass="right-align">Right</a></li>
+                              <li><a href="#" data-styleclass="left-align">Left</a></li>
+                           </ul>
+                           <div class="check-style" style="display:none;visibility:hidden">
+                              <label for="dateToggle">
+                              <input name="dateToggle" id="dateToggle" checked="checked" type="checkbox"> <span></span> Show Date Opposite </label>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+
+
+         </header>
+
+         <div class="frst-container content-alternate">
+
+            <div class="frst-timeline frst-timeline-style-4 frst-alternate frst-date-opposite">
+               <div class="frst-timeline-block frst-timeline-label-block" data-animation="slideInUp">
+                  <div class="frst-labels frst-start-label"> <span>First Responsive Timeline</span> </div>
+
+               </div>
+
+               <div class="frst-timeline-block frst-odd-item aqua-blue" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+
+                  <div class="frst-timeline-content animated rotateInDownLeft" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>1890</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-star fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <div class="frst-timeline-block frst-even-item red" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+
+                  <div class="frst-timeline-content animated rotateInDownLeft" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>1920</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-cloud fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <div class="frst-timeline-block frst-odd-item orange" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>1940</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-mobile fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <div class="frst-timeline-block frst-even-item light-green" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>1955</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-hourglass fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <div class="frst-timeline-block frst-odd-item red" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>1967</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-check fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <div class="frst-timeline-block frst-even-item aqua-blue" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>1978</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <div class="frst-timeline-block frst-odd-item orange" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>1989</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-user fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="frst-timeline-block frst-even-item light-green" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>1993</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-trash fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="frst-timeline-block frst-odd-item aqua-blue" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>2002</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-plus fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="frst-timeline-block frst-even-item orange" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>2007</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-hashtag fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="frst-timeline-block frst-odd-item light-green" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>2011</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-flash fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="frst-timeline-block frst-even-item red" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>2012</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-copyright fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="frst-timeline-block frst-odd-item light-green" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>2013</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-code fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="frst-timeline-block frst-even-item aqua-blue" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>2015</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-cog fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="frst-timeline-block frst-odd-item red" data-animation="slideInUp">
+                  <div class="frst-timeline-img"> <span></span> </div>
+                  <div class="frst-timeline-content is-hidden" style="position: relative;">
+                     <div class="frst-timeline-content-inner">
+                        <div class="side-border">
+                           <h2>2016</h2>
+                        </div>
+                        <div class="icon-section"> <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i> </div>
+                        <h2>Amazing responsive timeline</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                           adipiscing elit. Sed lobortis est sit amet augue aliquam vestibulum.
+                           Donec tempus erat in gravida dapibus. Sed suscipit tempor tellus ut
+                           mollis.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="./lib/js/jquery-3.js"></script>
+      <script src="./lib/js/jquery.js"></script>
+      <script src="./lib/js/jquery_003.js"></script>
+      <script src="./lib/js/jquery_002.js"></script>
+      <script src="./lib/js/frst-timeline.js"></script>
+      <script>
+         (function($){
+         	$(document).ready(function (){
+         		$("#side-menu-content").mCustomScrollbar({
+         			theme:"rounded-dots",
+         			scrollInertia:800
+         		});
+
+         	});
+         })(jQuery);
+      </script>
+   </body>
+</html>
