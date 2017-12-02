@@ -488,28 +488,28 @@
 
 .light-green .frst-timeline-img span {
     background: #fff;
-    box-shadow: 0 0 0 3px #C2C84A;
+    box-shadow: 0 0 0 3px #56a358;
 }
 
 .light-green .frst-timeline-content-inner .icon-section {
-    border: 4px solid #C2C84A !important;
-    color: #C2C84A;
+    border: 4px solid #56a358 !important;
+    color: #56a358;
 }
 
 .light-green .frst-timeline-content-inner .icon-section:before {
-    border-left: 17px solid #C2C84A !important;
+    border-left: 17px solid #56a358 !important;
 }
 
 .light-green .frst-timeline-content-inner .side-border {
-    background: #C2C84A !important;
+    background: #56a358 !important;
 }
 
 .light-green .frst-timeline-content-inner .side-border h2 {
-    color: #C2C84A;
+    color: #56a358;
 }
 
 .light-green .frst-timeline-content-inner .side-border:before {
-    border-right: 12px solid #C2C84A !important;
+    border-right: 12px solid #56a358 !important;
 }
 
 
